@@ -39,6 +39,8 @@ In your Babel configuration:
 }
 ```
 
+<sub>Note that Webpack outputs a bundle wrapped with iife by default.</sub>
+
 
 ## Contributing
 
