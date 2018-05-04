@@ -1,6 +1,9 @@
 # babel-plugin-iife-wrap [![Build Status](https://travis-ci.org/TrySound/babel-plugin-iife-wrap.svg?branch=master)](https://travis-ci.org/TrySound/babel-plugin-iife-wrap)
 
-> Wrap file with iife.
+> Wrap file with iife and add `'use strict;'` (by inheriting from `babel-plugin-transform-strict-mode`).
+
+
+**Warning**: this plugin is incompatible with [babel-plugin-transform-es2015-typeof-symbol](https://www.npmjs.com/package/babel-plugin-transform-es2015-typeof-symbol) which is in most babel presets, see [this issue](https://github.com/TrySound/babel-plugin-iife-wrap/issues/2) for details. Pull requests are welcome.
 
 
 ## Install
